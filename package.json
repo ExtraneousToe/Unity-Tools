@@ -1,0 +1,14 @@
+{
+  "name": "com.binaricpox.unitytools",
+  "version": "0.0.1",
+  "displayName": "Unity Tools",
+  "description": "Generic Tools created or sourced and compiled for Unity.",
+  "unity": "2019.4",
+  "dependencies": {
+    "com.unity.editorcoroutines": "1.x.x"
+  },
+  "author": {
+    "name": "Matthew Cameron",
+    "email": "penndrageist.dev@gmail.com"
+  }
+}
