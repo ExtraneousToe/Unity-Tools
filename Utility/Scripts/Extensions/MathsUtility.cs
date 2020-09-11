@@ -122,7 +122,7 @@ namespace UnityTools
         public static Vector3 BeizerPoint(Vector3 p0, Vector3 p1, Vector3 p2, Vector3 p3, float t)
         {
             t = Mathf.Clamp01(t);
-            var oneMinusT = 1 - t;
+            var oneMinusT = 1f - t;
             var oneMinusTSqr = oneMinusT * oneMinusT;
             var tSqr = t * t;
             return oneMinusT * oneMinusTSqr * p0
