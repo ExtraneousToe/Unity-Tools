@@ -1,5 +1,5 @@
 {
-  "name": "com.binaricpox.unitytools",
+  "name": "com.mattcameron.unitytools",
   "version": "0.0.1",
   "displayName": "Unity Tools",
   "description": "Generic Tools created or sourced and compiled for Unity.",
@@ -9,6 +9,6 @@
   },
   "author": {
     "name": "Matthew Cameron",
-    "email": "penndrageist.dev@gmail.com"
+    "email": "matthew.c.cameron91@gmail.com"
   }
 }
