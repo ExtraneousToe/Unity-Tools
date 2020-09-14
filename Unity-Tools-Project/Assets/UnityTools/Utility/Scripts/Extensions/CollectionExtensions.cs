@@ -21,7 +21,7 @@ namespace UnityTools
             var shuffledList = list.Select(
                 x => new { Number = r.GetRange(0, int.MaxValue), Item = x }
             ).OrderBy(x => x.Number).Select(x => x.Item);
-            return shuffledList.ToList();
+            return shuffledList;
         }
     }
 }
