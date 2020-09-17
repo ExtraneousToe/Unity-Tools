@@ -1,7 +1,11 @@
 {
-    "name": "UnityTools",
-    "references": [],
-    "includePlatforms": [],
+    "name": "Editor",
+    "references": [
+        "GUID:b203ef8972114ce42b7498ef91b3eb29"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
