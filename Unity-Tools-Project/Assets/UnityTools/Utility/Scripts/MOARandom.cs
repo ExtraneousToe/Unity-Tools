@@ -264,6 +264,17 @@ namespace UnityTools
         }
 
         /// <summary>
+        /// Wraps GetRange(int, int) to make usage clearer
+        /// </summary>
+        /// <param name="min"></param>
+        /// <param name="max"></param>
+        /// <returns></returns>
+        public int GetRangeExclusive(int min, int max)
+        {
+            return GetRange(min, max - 1);
+        }
+
+        /// <summary>
         /// Gets a point on the shell of the Unit Circle.
         /// </summary>
         /// <value>The on unit circle.</value>

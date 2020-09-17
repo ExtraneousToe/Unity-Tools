@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/UnityTools/ChunkGroup/Scenes/ChunkGroupTester.unity
+    guid: 71468dfaba3cb4da3972cee7df352f8c
   m_configObjects: {}
