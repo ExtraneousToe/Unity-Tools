@@ -9,30 +9,47 @@ namespace UnityTools
     /// </summary>
     public abstract class BaseScriptable : ScriptableObject
     {
+        [SerializeField] private bool m_doLogging = false;
+
         #region ScriptableObject
         protected virtual void Reset()
         {
-            Logger.LogMethod(GetType().Name);
+            if (m_doLogging)
+            {
+                Logger.LogMethod(GetType().Name);
+            }
         }
 
         protected virtual void Awake()
         {
-            Logger.LogMethod(GetType().Name);
+            if (m_doLogging)
+            {
+                Logger.LogMethod(GetType().Name);
+            }
         }
 
         protected virtual void OnEnable()
         {
-            Logger.LogMethod(GetType().Name);
+            if (m_doLogging)
+            {
+                Logger.LogMethod(GetType().Name);
+            }
         }
 
         protected virtual void OnDisable()
         {
-            Logger.LogMethod(GetType().Name);
+            if (m_doLogging)
+            {
+                Logger.LogMethod(GetType().Name);
+            }
         }
 
         protected virtual void OnDestroy()
         {
-            Logger.LogMethod(GetType().Name);
+            if (m_doLogging)
+            {
+                Logger.LogMethod(GetType().Name);
+            }
         }
         #endregion
     }
